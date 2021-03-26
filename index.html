@@ -305,19 +305,100 @@
                 of your project.
             </p>
 
-            <form action="" class="alculator-form">
-                <div calculator-form-input>
+            <form action="" class="calculator-form">
+                <div class="calculator-form-input" >
                     <label for="calculator-form-website-type" class="calculator-form-title">What should be done:</label>
-                    <select name="website-type" id="calculator-form-website-type"></select>
+                    <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
+                        <option value="landing-page">Landing page</option>
+                        <option value="website">Website</option>
+                        <option value="e-store" selected>E-store</option>
+                        <option value="cms">CMS</option>
+                        <option value="portal">Portal</option>
+                        <option value="online-action">Online action</option>
+                        <option value="resume-cv">Resume CV</option>
+                        <option value="e-service">E-service</option>
+
+                    </select>
                 </div>
-                <div calculator-form-input>
-                    <label for="" class="calculator-form-title"></label>
-                    <select name="" id=""></select></calculator-form-input>
+                <div class="calculator-form-input">
+                    <label for="calculator-form-technologes" class="calculator-form-title">Choose preferred technologies</label>
+                    <select name="technologes" id="calculator-form-technologes" class="calculator-form-select">
+                        <option value="python">Python</option>
+                        <option value="django">Django</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="js">JS</option>
+                        <option value="react">React</option>
+                        <option value="php">PHP</option>
+                        <option value="sql">SQL</option>
+
+                    </select>
                 </div>
-            </form>
-    
+                <div class="calculator-form-input">
+                    <label for="" class="calculator-form-title">Personal account and shopping cart:</label>
+                    <div class="calculator-form-input-radio-container">
+                        
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-yes">
+                        <label for="calculator-form-input-yes" class="calculator-form-input-label">Yes</label>
+                        
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-no">
+                        <label for="calculator-form-input-no" class="calculator-form-input-label">No</label>
+                       
+                    </div>
+                    
+                </div>
+                <div class="calculator-form-input">
+                    <label for="" class="calculator-form-title">Requests reception on your email:</label>                    
+                
+                    <div class="calculator-form-input-radio-container">
+                        
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-yes">
+                        <label for="calculator-form-input-reception-yes" class="calculator-form-input-label">Yes</label>
+                
+                        
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-no">
+                        <label for="calculator-form-input-reception-no" class="calculator-form-input-label">No</label>
+                
+                    </div>
+                </div>
+
+                <div class="calculator-form-input">
+
+                    <p class="calculator-form-total">Cost:</p>
+                    <p class="calculator-total-cost">500 eur</p>
+                </div>
+
+                <input type="submit" value="Find out the cost  —" class="accent-btn">
+
+            </form>    
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h3 class="footer-my-name">Sergei Rodiukov</h3>
+            <p class="footer-prof">FullStack Developer</p>
+            <a href="tel:+37253931165" class="footer-my-tel">+37253931165</a>
+            <a href="mailto:rodiukovsergei@gmail.com" class="footer-my-mail">rodiukovsergei@gmail.com</a>
+            
+            <div class="social-links">
+                <a href="https://www.facebook.com/sergei.rodiukov/" class="soc-link-a">
+                    <i class="fab fa-facebook social-links-items"></i>
+                </a>
+                <a href="https://github.com/vitjaz89" class="soc-link-a">
+                    <i class="fab fa-github social-links-items"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sergei-rodiukov-a34387207/" class="soc-link-a">
+                    <i class="fab fa-linkedin-in social-links-items"></i>
+                </a>
+                <a href="" class="soc-link-a">
+                    <i class="fab fa-instagram social-links-items"></i>
+                </a>
+            </div>
+            
+
+        </div>
+    </footer>
     
 </body>
 </html>

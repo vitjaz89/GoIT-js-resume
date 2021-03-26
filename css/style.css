@@ -494,6 +494,9 @@ body {
 .calculator {
   background: var(--c-dark);
 }
+.calculator .container {
+  padding-bottom: 75px;
+}
 
 .calculator-icon {
   width: 195px;
@@ -529,4 +532,105 @@ body {
   text-align: center;
   color: var(--txt-c-light);
   margin: 20px 0 30px 0;
+}
+.calculator-form {
+  background: var(--c-light);
+  padding: 30px 25px;
+}
+.calculator-form-title {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 135%;
+  color: var(--txt-c-dark);
+  margin-bottom: 15px;
+}
+
+.calculator-form-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.calculator-form-select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--c-grey-light);
+  padding: 5px 0 17px 0;
+}
+.calculator-form-input-field {
+  margin-right: 10px;
+}
+.calculator-form-input-radio-container {
+  display: flex;
+  align-items: center;
+}
+.calculator-form-input-label {
+  margin-right: 15px;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+}
+.calculator-total-cost {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 150%;
+  margin: 0;
+  color: var(--txt-c-dark);
+}
+.calculator-form-total {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 135%;
+  color: var(--txt-c-dark);
+  margin-bottom: 15px;
+  margin: 0;
+}
+/* FOOTER SECTION */
+.footer-my-name {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+  margin: 0;
+}
+.footer-prof {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+  text-align: center;
+  margin-bottom: 0 0 20px 0;
+}
+.footer-my-tel {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  text-decoration: none;
+  color: var(--txt-c-dark);
+  margin-bottom: 15px;
+}
+.footer-my-mail {
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--txt-c-dark);
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.social-links-items {
+  font-size: 25px;
+}
+.soc-link-a {
+  margin-right: 35px;
+  text-decoration: none;
+  color: var(--c-dark);
+}
+.social-links-item:last-child {
+  margin-right: 0;
+}
+.social-links {
+  margin-left: 30px;
 }
