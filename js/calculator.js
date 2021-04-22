@@ -1,6 +1,12 @@
 const technologiesSelect = document.querySelector('#calculator-form-technologes');
 
-const 
+const calculatorForm = document.querySelector('.calculator - form');
+
+calculatorForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    console.log('FORM submitted')
+});
 
 const technologiesMultiSelect = new Choices(technologiesSelect, {
   allowSearch: false,
