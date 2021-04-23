@@ -1,13 +1,5 @@
 const technologiesSelect = document.querySelector('#calculator-form-technologes');
 
-const calculatorForm = document.querySelector('.calculator - form');
-
-calculatorForm.addEventListener('submit', function (event) {
-    event.preventDefault();
-
-    console.log('FORM submitted')
-});
-
 const technologiesMultiSelect = new Choices(technologiesSelect, {
   allowSearch: false,
   silent: false,
@@ -34,3 +26,20 @@ const technologiesMultiSelect = new Choices(technologiesSelect, {
     input: "choices__input",
   },
 });
+const calculatorForm = document.querySelector('.calculator-form');
+
+calculatorForm.addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  // Selectors
+  const websiteTypeSelect = document.querySelector('#calculator-form-website-type');
+  const websiteCart = document.querySelector('.calculator-form-radio-container input:checked');
+  const websiteReception
+  // Values
+  const websiteTypeValue = websiteTypeSelect.value;
+  const technologiesValue = technologiesMultiSelect.getValue();
+
+    
+});
+
+
